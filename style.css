@@ -1,0 +1,34 @@
+
+*{
+    font-family: 'Neucha', cursive;
+}
+body {
+    text-align: center;
+    background-image: url(https://www.freeppt7.com/uploads/180518/1-1P51R15J6215.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px 655px;
+    color: rgb(8, 92, 92);
+    
+}
+
+div{
+    width: 480px;
+    margin: 2% auto;
+}
+
+canvas{
+    background-color: white;
+    border: 1px solid black;
+    
+}
+
+button{
+    width: 70px;
+    height: 25px;
+    border-radius: 6px;
+    border: none;
+    background-color: tomato;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}

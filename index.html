@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()"> 
+    <div>
+        <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">Up☝️</button> <br><br>
+        <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">Left👈</button>
+        <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">Right👉</button> <br><br>
+        <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">Down👇</button> 
+    </div>
+    <h2>~Flappy Game made by Progruad Junior Akankshya Santosh~🙏🏻</h2>
+    <script src="./app.js"></script>
+</body>
+</html>
